@@ -10,5 +10,5 @@ export const GET = async (req: NextRequest, context: any) => {
   const trackDetails =
     trackList.find((list) => list.id === code) || noContentMessage
 
-  return NextResponse.json(trackDetails)
+  return NextResponse.json(JSON.stringify(trackDetails))
 }
