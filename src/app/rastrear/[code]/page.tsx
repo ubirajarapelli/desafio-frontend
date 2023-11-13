@@ -1,3 +1,4 @@
+import "server-only"
 import { Typography } from "@/components/typography/Typography"
 import { LinkButton } from "@/components/linkButton/LinkButton"
 import { TrackList } from "@/components/trackList/TrackList"
